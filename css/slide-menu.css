@@ -1,0 +1,44 @@
+.slide-menu {  
+ display: flex;
+ flex-wrap: nowrap;
+ white-space: nowrap;  
+ overflow: auto; 
+ align-items: center;
+ margin-top: 24px;
+}  
+
+.slide-menu__link {
+ display: block;
+ color: #7E7E82;
+ font-size: 16px; 
+ padding: 8px 10px 8px 16px;
+ text-decoration: none;  
+}
+
+.slide-menu__link:hover {
+ color: black; 
+}
+
+.slide-menu__link--active {
+ border: 2px solid #B8FFEC; 
+ border-radius: 6px;
+ background-color: white;
+}
+
+.slide-menu__link--active:hover {
+ border-color: green; 
+ background-color: green; 
+ color: white;
+} 
+
+@media screen and (min-width: 1120px) {
+ .slide-menu {
+  flex-wrap: wrap;
+  margin-top: 5px;
+ } 
+ .slide-menu__link {
+  padding-left: 23px;
+  padding-right: 20px;
+  margin-top: 6px;
+ }
+}
