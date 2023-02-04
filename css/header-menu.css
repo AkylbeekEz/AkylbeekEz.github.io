@@ -1,10 +1,10 @@
 .header-menu {
  display: flex;  
  height: 88px;   
- margin-left: 16px;
- margin-right: 16px;
+ padding-left: 16px;
+ padding-right: 16px;
  overflow: auto;
- justify-content: space-between;  
+ justify-content: space-between;   
  border-bottom: 1px solid #D9FFF5; 
  background-color: white;
 } 
@@ -19,17 +19,17 @@
  align-items: center;
 }
 
-.header-menu__link {
- display: flex;
- margin-left: 16px; 
- text-decoration: none;
-}
+.header-menu__link { 
+ display: flex;   
+ margin-left: 16px;  
+} 
 
 .header-menu__link:first-child {
  margin-left: 0;
 }
 
-.header-menu__link--divider:before { 
+.header-menu__link--divider:before {  
+ position: relative; 
  align-self: center;
  margin-right: 16px;    
  content: ""; 
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 768px) {
  .header-menu {
-  margin-left: 24px;
+  padding-left: 24px;
  }
 }
 

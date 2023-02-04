@@ -590,10 +590,21 @@
      url('fonts/TTLakesCompressed-Black.ttf') format('truetype');
  font-weight: 900;
  font-style: normal;
+} 
+
+body { 
+  position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+  font-family: 'TT Lakes'; 
+  background-color: #F8F8F8;  
 }
 
-body {
-  font-family: 'TT Lakes';
-  margin: 0;   
-  background-color: #F8F8F8;  
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;  
 }
